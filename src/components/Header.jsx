@@ -29,9 +29,9 @@ const Header = () => {
         {/* Logo */}
         <div className="logo-group">
           <div className="logo-texts">
-            <a href='/home'>
-                <img src={Headerlogo} alt="header-logo" className="header-logo-img" />
-            </a>
+           <button onClick={() => scrollToSection('home')} className="logo-button">
+  <img src={Headerlogo} alt="header-logo" className="header-logo-img" />
+</button>
           </div>
         </div>
 

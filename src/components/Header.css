@@ -34,6 +34,13 @@ header {
 .logo-texts {
   margin-left: 10px;
 }
+.logo-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 
 /* Desktop Nav */
 nav {
