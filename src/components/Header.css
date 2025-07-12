@@ -1,0 +1,113 @@
+/* Header Styles */
+header {
+  background-color: #28a745; /* Green background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container */
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem; /* Reduced from 1rem to 0.5rem vertically */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Block */
+.logo-group {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-img {
+  width: 40px; /* Adjusted for smaller logo */
+  height: 40px;
+  object-fit: cover;
+}
+
+.logo-texts {
+  margin-left: 10px;
+}
+
+/* Desktop Nav */
+nav {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap; /* Prevent text wrap */
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #0c0c0c;
+  font-size: 1.15rem; /* Slightly smaller font */
+  line-height: 1;
+  padding: 0.25rem 0;
+  transition: color 0.3s;
+  background: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* Remove focus/active outline (blue box) */
+.nav-link:hover {
+  color: #f3f5f9;
+}
+
+.nav-link:active,
+.nav-link:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* Mobile Styles */
+.mobile-toggle {
+  display: none;
+  color: #1e293b;
+}
+
+.mobile-menu {
+  display: none;
+  background: white;
+  border-top: 1px solid #e2e8f0;
+  padding: 1rem;
+}
+
+.mobile-menu button {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #1e293b;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  border: none;
+  background: none;
+  transition: color 0.3s;
+}
+
+.mobile-menu button:hover {
+  color: #28a745;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
