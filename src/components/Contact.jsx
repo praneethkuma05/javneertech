@@ -77,7 +77,7 @@ const Contact = () => {
               <h4 className="get-in-touch-title">Get In Touch</h4>
               <p className="get-in-touch-text">
                 We’re always open to discussing new projects, creative ideas,
-                or opportunities to be part of your vision.
+                or opportunities to be part of the vision.
               </p>
             </div>
           </div>
