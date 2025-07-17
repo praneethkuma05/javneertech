@@ -8,7 +8,7 @@
 }
 
 .contact-container {
-  max-width: 1280px;
+  max-width: 1080px;
   margin: 0 auto;
   width: 100%;
 }
@@ -45,14 +45,13 @@
   color: #edf4ef;
   font-weight: 600;
   font-size: 1.1rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   border-radius: 8px;
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 
 .contact-button:hover {
-  background-color: white;
+  background-color: rgb(15, 181, 68);
   transform: scale(1.05);
   color: #28a745;
 }
